@@ -1,0 +1,40 @@
+{
+  "name": "ai-fitness-coach-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "description": "AI-powered fitness coach MVP for personalized workouts, nutrition, progress tracking, and onboarding.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@clerk/nextjs": "latest",
+    "@supabase/supabase-js": "latest",
+    "@tailwindcss/forms": "latest",
+    "clsx": "latest",
+    "framer-motion": "latest",
+    "lucide-react": "latest",
+    "next": "14.2.21",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-hook-form": "latest",
+    "tailwindcss": "latest",
+    "typescript": "latest",
+    "zod": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "autoprefixer": "latest",
+    "eslint": "latest",
+    "eslint-config-next": "14.2.21",
+    "postcss": "latest"
+  },
+  "engines": {
+    "node": ">=18.17.0"
+  }
+}
